@@ -28,13 +28,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+  
 }
 .navbar-menu-container {
   display: none;
 }
 .navbar-links-container a {
   margin-right: 3rem;
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
@@ -51,10 +52,10 @@ nav {
   transition: 0.2s;
 }
 .navbar-cart-icon {
-  font-size: 1.15rem;
+  font-size: 1.50rem;
 }
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(249, 210, 174);
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
@@ -115,7 +116,7 @@ nav {
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #fed392;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -258,7 +259,7 @@ nav {
   color: #fe9e0d;
 }
 .testimonial-section-bottom h2 {
-  margin-top: 1.5rem;
+  margin-top: 1.9rem;
 }
 .work-section-wrapper {
   margin-top: 15rem;
@@ -379,6 +380,7 @@ nav {
     margin-left: 0rem !important;
     margin-top: 1rem;
     font-size: 1rem !important;
+    border-color: #484848;
   }
   .watch-video-button svg {
     margin-right: 0.5rem !important;
